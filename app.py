@@ -1,5 +1,5 @@
 from flask import Flask
-from weather.routes import weather_bp  # Importando o Blueprint
+from routes import weather_bp  # Importando o Blueprint
 
 app = Flask(__name__)
 
